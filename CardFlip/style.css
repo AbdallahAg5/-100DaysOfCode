@@ -1,0 +1,131 @@
+body{
+       
+    display: flex;
+    justify-content: center;
+    background-color: rgb(178, 198, 216);
+    
+
+}
+
+
+
+.back{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(129, 125, 125);
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    text-align: center;
+   
+}
+
+
+.front{
+    position: absolute;
+    height: 400px;
+    width: 300px;
+    background-color: rgb(52, 131, 235);
+    backface-visibility: hidden;
+    text-align: center;
+    
+
+}
+
+.container{
+   position: absolute;
+   transform-style: preserve-3d;
+   transition: all 0.5s ease ;
+   height: 400px;
+   width: 300px;
+  left: 40%;
+  top: 20%;
+    
+    
+    
+   
+}
+
+.container:hover{
+    transform: rotateY(180deg);
+}
+
+
+
+@media (max-width:880px) {
+    .container{
+     left: 30%;
+    }}
+
+
+@media (max-width:585px) {
+    .container{
+     left: 15%;
+    }}
+
+@media (max-width:425px) {
+    .container{
+      left: 5%;
+    }}
+
+
+    img{
+       
+        width: 150px;
+        height: 150px;
+        margin-top: 15px;
+        
+    }
+
+    .name{
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Mouse Memoirs', sans-serif;
+        letter-spacing: 2px;
+        font-style: italic;
+        color: aliceblue;
+    }
+
+    .social{
+        margin-top: 20px;
+        text-align: center;
+        font-family: 'Mouse Memoirs', sans-serif;
+        letter-spacing: 2px;
+        font-style: italic;
+        color: aliceblue;
+        margin-bottom: 50px;
+    }
+
+
+
+    h4{
+        text-align: center;
+        margin-top: -15px;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+    }
+
+    button{
+        display: block;
+        width: 50%;
+        margin-top: 15px;
+        height: 27px;
+        margin-left: 25%;
+        background-color: rgb(206, 200, 211);
+        font-weight: bold;
+        font-style: italic;
+        font-family: 'Roboto', sans-serif;
+        cursor: pointer;
+        border-radius: 20px;
+        
+    }
+
+    h5{
+        position: absolute;
+        font-weight: bold;
+        font-style: italic;
+        bottom: 0;
+        margin-left: 35%;
+    }
