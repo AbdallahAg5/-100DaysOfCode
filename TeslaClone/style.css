@@ -1,0 +1,64 @@
+@import url(var.css);
+.model3 {
+  background-image: url(./img/model3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.modelY {
+  background-image: url(./img/ModelY.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.modelS {
+  background-image: url(./img/medelS.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.modelX {
+  background-image: url(./img/Model-X.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.solarpanel {
+  background-image: url(./img/SolarPanels.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.solarroof {
+  background-image: url(./img/SolarRoof.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+body, html {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=style.css.map */

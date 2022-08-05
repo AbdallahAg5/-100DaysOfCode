@@ -1,0 +1,85 @@
+@import url(var.css);
+
+
+
+.model3{
+    background-image: url(./img/model3.jpg);
+    background-repeat: $repeat;
+    background-size: $cover;
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+
+}
+
+.modelY{
+    background-image: url(./img/ModelY.jpg);
+    background-repeat: $repeat;
+    background-size: $cover;
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+  
+}
+
+.modelS{
+    background-image: url(./img/medelS.jpg);
+    background-repeat: $repeat;
+    background-size: $cover;
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+    
+
+}
+
+
+.modelX{
+    background-image: url(./img/Model-X.jpg);
+    background-repeat: $repeat;
+    background-size: $cover;
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+   
+
+}
+
+.solarpanel{
+    background-image: url(./img/SolarPanels.jpg);
+    background-repeat: $repeat;
+    background-size: $cover;
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+   
+
+}
+
+.solarroof{
+    background-image: url(./img/SolarRoof.webp);
+    background-repeat: $repeat;
+    background-size: $cover;
+    width: $width;
+    height: $height;
+    margin-top: $margin-top;
+    padding-top: $padding-top;
+   
+
+}
+
+
+
+body,html{
+    scroll-behavior: smooth;
+}
+
+
+
+
+
