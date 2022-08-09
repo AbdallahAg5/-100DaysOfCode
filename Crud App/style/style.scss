@@ -1,0 +1,126 @@
+@import 'color';
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $forth;
+}
+
+
+
+
+.title{
+    color: $primary;
+    padding-left: 10px;
+    background-color: $third;
+    margin-top: 0;
+    padding-top: 5px ;
+    padding-bottom: 10px ;
+    font-family:  'Francois One', sans-serif;
+    font-style: italic;
+    box-shadow: 3px 3px 3px $primary;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+ 
+    
+    
+ 
+}
+
+
+.text{
+   width: 200px;
+   height: 20px;
+   border: 2px solid $primary;
+ }
+
+.icon{
+    color: $third;
+    background-color: $primary;
+    font-size: 26px;
+    width: 27px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.git{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 30px;
+    color: $primary;
+}
+
+
+
+
+li{
+    background-color: $third;
+    list-style-type: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    font-style: italic;
+    width: 230px;
+    padding-left: 5px;
+    margin-right:10px ;
+    margin-top: 6px;
+    float: left;
+    border: 1px solid black;
+
+    
+
+  
+
+}
+
+ul{
+    margin-left:50%;
+    transform: translateX(-50%);
+    background-color: aqua;
+    width: 275px;
+   
+   
+}
+
+
+@media (max-width:330px) {
+    ul{
+        margin-left: 35%;
+        width: 200px;
+       
+       
+    }
+    
+}
+
+
+.x{
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: red;
+}
+
+
+::placeholder{
+    color: $primary;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
