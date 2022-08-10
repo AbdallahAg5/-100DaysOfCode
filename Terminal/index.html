@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+     body{background-image: url(./bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+     }
+
+
+     div{
+        background-color: rgba(21, 21, 22,0.7);
+        backdrop-filter: blur(40px);
+
+     }
+
+
+     .p1{
+        animation: color 1.5s infinite ;
+        font-weight: bold;
+        font-style: italic;
+     }
+
+     .p2{
+        color: aliceblue;
+        font-weight: bold;
+        font-style: italic;
+     }
+
+     
+
+     @keyframes color {
+        0%{
+            color:rgb(28, 218, 53)
+        }
+
+        50%{
+            color:rgba(37, 161, 54,0.7)
+        }
+
+        100%{
+            color:rgba(37, 161, 54,0.4)
+        }
+        
+     }
+
+     span{
+        color:rgb(28, 218, 53)
+     }
+   </style>
+
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   >
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Site clone</title>
+</head>
+<body class="h-screen flex justify-center items-center ">
+    <div class="h-96  w-72 sm:w-96 md:w-2/4 mx-auto pt-2 pl-2">
+       <p class="p1">>  Press SPACE to began...</p>
+   <pre><p class="p2"></p></pre>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
