@@ -1,0 +1,131 @@
+    body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background-color: rgb(151, 151, 151);
+        }
+
+        .inputs{
+         margin-top: 70px;
+         display: block;
+         margin-left: 100px;
+        }
+
+
+        input[type='text']{
+            width:300px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 2px solid black;
+            position: absolute;
+            outline: none;
+            background-color:rgb(151, 151, 151) ;
+        }
+
+        ::placeholder{
+            font-style: italic;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        .box{
+            display: block;
+            background-color: rgb(63, 60, 58);
+            height: 180px;
+            position: absolute;
+            margin-top: 300px;
+            width: 300px;
+            padding: 5px;
+            justify-content: center;
+            display: none;
+            
+           
+           
+        }
+
+
+        #del{
+           bottom: 5px;
+           position: absolute;
+           right: 5px;
+        }
+
+        .space{
+            background-color: aliceblue;
+            height: 120px;
+            margin-top: 10px;
+            margin-left: 10px;
+            width: 270px;
+            padding-top: 5px;
+            padding-left: 5px;
+            overflow: auto;
+
+        }
+
+        input[type='submit']{
+          background-color: rgb(196, 98, 6);
+          border-radius: 10px;
+          font-weight: bold;
+          font-style: italic;
+         
+        }
+
+        h1{
+            position: absolute;
+            top: 0;
+
+
+        }
+
+  @media (max-width:390px) {
+
+    .inputs{
+         margin-top: 60px;
+         margin-top: 80px;
+         margin-left: 10px;
+        }
+
+
+        input[type='text']{
+            width:180px;
+           
+        }
+
+       
+
+        .box{
+           
+            width: 180px;
+            margin-top: 300px;
+            
+            
+            
+           
+           
+        }
+
+
+        #del{
+           bottom: 5px;
+           position: absolute;
+           right: 5px;
+        }
+
+        .space{
+            background-color: aliceblue;
+          
+            width: 150px;
+            
+
+        }
+
+        input[type='submit']{
+          background-color: rgb(196, 98, 6);
+          border-radius: 10px;
+          font-weight: bold;
+          font-style: italic;
+         
+      
+  }}
