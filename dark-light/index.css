@@ -1,0 +1,50 @@
+h3 {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 35px;
+    flex: auto;
+    font-family: 'Inspiration', cursive;
+    font-weight: bold;
+}
+
+li {
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+
+li:hover {
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+a {
+    color: var(--firstColor);
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Inspiration', cursive;
+}
+
+button {
+    color: #808080;
+}
+
+i {
+    width: 19px;
+    margin-left: 50px;
+}
+
+img {
+    width: 100%;
+    height: 150%;
+}
+
+h1 {
+    font-family: 'Inspiration', cursive;
+}
+
+p {
+    font-family: 'Inspiration', cursive;
+}
