@@ -1,0 +1,157 @@
+body::-webkit-scrollbar{
+      width: 15px;
+      background-color: antiquewhite;
+        height: 10px;
+        
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body::-webkit-scrollbar-thumb{
+      background-color: rgb(110, 97, 182);
+      -webkit-height: 10px;
+     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+/* .div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  
+
+}
+
+.name{
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(233, 117, 8);
+}
+
+body{
+    background-color: rgb(28, 47, 63);
+     margin: 0;
+     padding: 0;
+}
+
+.name2{
+   display: flex;
+   justify-content: center;
+   color: rgb(255, 255, 255);
+   font-style: italic;
+   font-weight: bolder;
+   font-size: 50px;
+}
+
+.html{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: -20px;
+}
+
+.css{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+.js{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top:-80px;
+    margin-left: 100px;
+}
+
+.bootsrap{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: -140px;
+}
+
+.tailwinds{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 160px;
+    
+}
+
+.gsap{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: -140px;
+}
+
+.sass{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 210px;
+   
+}
+
+
+.git{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 260px;
+   
+}
+
+.jquery{
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: -150px;
+}
+
+
+
+
+input{
+    margin-top:-30px;
+} */
