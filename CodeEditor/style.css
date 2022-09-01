@@ -1,0 +1,72 @@
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(24, 73, 57);
+}
+
+iframe{
+   background-color: aliceblue;
+}
+
+div{
+ margin: 20px;
+ display:grid;
+ grid-template-columns: repeat(4 ,1fr);
+}
+
+nav{
+ background-color: antiquewhite;
+ width: 100%;
+ font-weight: bold;
+ font-style: italic;
+  height: 40px;
+  display: flex;
+ align-items: center;
+ padding-left: 15px;
+}
+
+.git {
+     position: absolute;
+     top: 10px;
+     right: 15px;
+     font-size: 20px;
+     color: #1C3879;
+}
+
+textarea:focus {
+  
+   outline: #000000 solid 2px;
+}
+
+textarea,iframe{
+       text-decoration: none;
+       width: 100%;
+       height: 93vh;
+       resize: vertical;
+    
+   }
+
+
+
+     @media (max-width:1000px) {
+       div{
+             display:grid;
+             grid-template-columns: repeat(1 ,1fr);
+          }
+
+          
+     textarea{
+       text-decoration: none;
+       width: 100%;
+       height: auto;
+     }
+
+     iframe{
+       height: 100vh;
+     }
+
+     }
+
+
+ 

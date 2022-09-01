@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+    <title>Real-Time Editor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+ <body>
+      <nav>
+          <h1>Code Editor</h1>
+          <a href="https://github.com/AbdallahAg5" target="_blank"><i class="git fa-brands fa-github fa-beat"></i></a>
+      </nav>
+      <div>
+         <textarea id="htmlCode" placeholder="Write HTML"  onkeyup="writee()" autofocus ></textarea>
+         <textarea id="cssCode"  placeholder="Write CSS" spellcheck="false" onkeyup="writee()" ></textarea>
+         <textarea id="jsCode"  placeholder="Write JAVACRIPT" onkeyup="writee()" ></textarea>
+         <iframe id="viewer"></iframe>
+      </div>
+     <script src="./script.js"></script>
+</body>
+</html>
+
+
