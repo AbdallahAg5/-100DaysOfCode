@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(112, 112, 112);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+
+}
+
+.div1{
+   height: 350px;
+   width: 300px;
+   border: 2px solid black;
+   text-align: center;
+   padding-top: 20px;
+   box-shadow: inset 5px 5px 20px #000000, inset -5px -5px 20px #000000;
+   background-color: #3094d6;
+   perspective: 400px;
+   
+            
+}
+
+
+.div2{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 30px;
+
+   
+}
+
+span{
+  justify-self: center;
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 2px #000000, -5px -5px 2px #000000;
+  font-weight: bold;
+  font-style: italic;
+  pointer-events: painted;
+}
+  
+
+
+p{
+
+  color: #f0f0f0;
+  font-size: x-small;
+  font-weight: bold;
+  margin-top: -10px;
+  padding-left: 130px;
+}
+
+
+input{
+  margin-top: -25px;
+  text-align: end;
+  outline: none;
+  
+}
+
+
+input[type='button']{
+    margin-left: 10px;
+    font-style: italic;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #3094d6;
+    box-shadow: 1px 1px 2px #000000,  -1px -1px 2px #000000;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
